@@ -1,0 +1,25 @@
+/* CSS Selector */
+
+h1{                        /* CSS Element Selector */
+    color: green;
+    font-size:  70px;
+ }
+
+.highlighted_text{       /* CSS Class Selector */
+    color: black;
+    background-color: yellow;
+    font-size: 70px;
+}
+
+#bold_text{       /* CSS Id Selector */ /* ID always Unique */
+ text-align: center;
+ color: red;
+ font-weight:bold;
+ font-size:  70px;
+ font-style: italic;
+}
+
+*{             /* CSS Universal Selector */ 
+font-size: 80px ;
+text-align: left;
+}
