@@ -11,7 +11,7 @@ h1{                        /* CSS Element Selector */
     font-size: 70px;
 }
 
-#bold_text{       /* CSS Id Selector */ /* ID always Unique */
+#bold_text{         /* CSS Id Selector */ /* ID always Unique */
  text-align: center;
  color: red;
  font-weight:bold;
@@ -19,7 +19,12 @@ h1{                        /* CSS Element Selector */
  font-style: italic;
 }
 
-*{             /* CSS Universal Selector */ 
+*{                   /* CSS Universal Selector */ 
 font-size: 80px ;
 text-align: left;
+}
+
+h3,h4,p{            /* CSS Group Selector */
+color:black;
+
 }
