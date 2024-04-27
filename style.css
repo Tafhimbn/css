@@ -70,6 +70,12 @@ background:#45FCFC url(bg.jpg) no-repeat center scroll;
     border-radius: 100px 0px 100px 0px;     
 }
 
+/* ----------- line height -----------*/
+.div1
+    {
+      line-height:5px;
+    }
+
 /* ------------- CSS Display Property ---------- */
 .p1 {  display: none;    }
 .p2 {  display: inline;    }
@@ -149,3 +155,25 @@ img  {
              background-color: red;
              color: black;
             }
+/* ---------- important Property -------*/
+.imp {
+    color: red;
+    font-style: italic !important;
+    }
+.imp {
+        color: black;
+        font-style: italic;
+    }    
+
+    /* ----------- margin Property -----*/
+.mar {
+
+    line-height: 40px;
+    margin: 5px 25px 5px 25px; 
+    /*
+    margin-top: 5px; margin-bottom: 25px; 
+    margin-left: 5px; margin-right: 5px;
+    */
+    color: orange;
+}
+
