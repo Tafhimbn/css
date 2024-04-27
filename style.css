@@ -39,5 +39,37 @@ object-fit:cover;
 background-position: center;
 background-attachment: scroll ;
 background-size: auto;
-background: blend mode 30px;
+background:#45FCFC url(bg.jpg) no-repeat center scroll;
+}
+
+
+/* Border style */
+.dotted { color:black; border-style: dotted; }
+.dashed { border-style: dashed;}
+.solid { border-style: solid;}
+.double { border-style: double;}
+.groove {border-style:groove ;}
+.ridge {border-style:ridge ;}
+.inset {border-style:inset ;}
+.outset {border-style: outset ;}
+.none {border-style:none ;}
+.hidden {border-style:hidden ;}
+.mix {border-style:dotted dashed solid double ;}
+
+.border_redius {border-radius: 40px 1px 20px;}
+
+.div1 {
+    height: 80px;
+    width: 700px;
+    background-color: bisque;
+    border-radius: 20px 20px 20px 20px;    
+    
+    /* CSS Border radius 
+    Four values (top-left corner, top-right corner, bottom-right corner, and bottom-left corner)
+    Three values (top-left corner, _______________, bottom-right corner, and bottom-left corner)
+    Two values (top-left corner, _______________, bottom-right corner, _______________)
+    */
+
+
+
 }
