@@ -20,7 +20,7 @@ h1{                        /* CSS Element Selector */
 }
 
 *{                   /* CSS Universal Selector */ 
-font-size: 80px ;
+font-size: 40px ;
 text-align: left;
 }
 
@@ -58,18 +58,20 @@ background:#45FCFC url(bg.jpg) no-repeat center scroll;
 
 .border_redius {border-radius: 40px 1px 20px;}
 
-.div1 {
-    height: 80px;
-    width: 700px;
-    background-color: bisque;
-    border-radius: 20px 20px 20px 20px;    
-    
+.div0 {
     /* CSS Border radius 
     Four values (top-left corner, top-right corner, bottom-right corner, and bottom-left corner)
     Three values (top-left corner, _______________, bottom-right corner, and bottom-left corner)
     Two values (top-left corner, _______________, bottom-right corner, _______________)
     */
-
-
-
+    height: 300px;
+    width: 700px;
+    background-color: bisque;
+    border-radius: 100px 0px 100px 0px;     
 }
+
+/* ------------- CSS Display Property ---------- */
+.p1 {  display: none;    }
+.p2 {  display: inline;    }
+.p3 {  display: block;    }
+.p4 {  display: inline-block;    }
