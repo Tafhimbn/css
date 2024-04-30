@@ -124,7 +124,7 @@ background:#45FCFC url(bg.jpg) no-repeat center scroll;
 
 /* --------- CSS Float Property ------ */
 
-img  {
+.img0  {
     float: right;
   }
 
@@ -169,11 +169,103 @@ img  {
 .mar {
 
     line-height: 40px;
-    margin: 5px 25px 5px 25px; 
+    margin: 40px 40px 40px 40px; 
     /*
     margin-top: 5px; margin-bottom: 25px; 
     margin-left: 5px; margin-right: 5px;
     */
     color: orange;
+    text-align: justify;
+    background-color: greenyellow;
 }
+
+.pad{
+    line-height: 40px;
+    padding: 40px 40px 40px 40px; 
+     /*
+    padding-top: 5px; padding-bottom: 25px; 
+    padding-left: 5px; padding-right: 5px;
+    */
+    
+    color: orange;
+    text-align: justify;
+    background-color: greenyellow;
+}
+
+/*       Margin
+ ___________________
+|  ___Border______  |
+| |  _Padding__   | |
+| | | Context  |  | |
+| | |__________|  | |
+| |_______________| |
+|___________________|
+*/
+
+/* CSS Filter */
+
+.img1{
+    width: 300px;
+    height:300px;
+    filter: drop-shadow(200%);
+}
+
+.img2{
+    width: 300px;
+    height:300px;
+    filter: brightness(200%);
+}
+
+
+/* CSS Overflow */
+
+.ovrfl1
+      {
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+}
+
+.ovrfl2
+      {
+        height: 300px;
+        width: 300px;
+        overflow: auto;
+}
+
+.ovrfl3
+      {
+        height: 300px;
+        width: 300px;
+        overflow-y: hidden;
+        overflow-x: auto;
+}
+
+
+/* CSS Word Wrap */
+  
+.wrn {
+    width: 150px; 
+    border: 1px solid #000000;
+    word-wrap: normal;
+  }
+  
+.wrb {
+    width: 150px; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+  }
+
+/* CSS Position */
+
+/* specifies the type of positioning method 
+used for an element (static, relative, absolute, 
+fixed, or sticky ) */
+
+.t_position{
+    position: absolute;
+    left: 100px;
+    right: 150px;
+}
+
 
