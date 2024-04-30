@@ -245,16 +245,78 @@ background:#45FCFC url(bg.jpg) no-repeat center scroll;
 /* CSS Word Wrap */
   
 .wrn {
-    width: 150px; 
+    width: 200px; 
     border: 1px solid #000000;
     word-wrap: normal;
   }
   
 .wrb {
-    width: 150px; 
+    width: 200px; 
     border: 1px solid #000000;
     word-wrap: break-word;
   }
+
+
+
+/* CSS justify */
+
+.jst0
+   {
+    display:flex;
+    justify-content: space-evenly;
+   }
+.jst1
+   {
+    display:flex;
+    justify-content:flex-start;
+   }
+
+/* CSS text decoration */
+
+.pd_ov 
+     {
+      text-decoration: overline;
+     }
+
+.pd_th 
+     {
+      text-decoration: line-through;
+     }
+
+.pd_ud
+     {
+      text-decoration: underline;
+     }
+
+.pd_ud-ov 
+     {
+      text-decoration: underline overline;
+     }
+
+/* CSS word & letter spacing */
+
+.ls1 {letter-spacing: 10px;}
+.ls2 {letter-spacing: 20px;}
+.ls3 {letter-spacing: -10px;}
+.ls4 {letter-spacing: normal;}
+
+.ws1 {word-spacing: 30px;}
+.ws2 {word-spacing: 20px;}
+.ws3 {word-spacing: -10px;}
+.ws4{word-spacing: normal;}
+
+/* CSS Variable */
+:root {
+    -pink: #ff1e80;
+    -yellow: #f6b70c;
+}
+
+.vr{
+color: var(-pink);
+background-color: var(-yellow);
+padding: 15px;
+}
+  
 
 /* CSS Position */
 
@@ -267,5 +329,7 @@ fixed, or sticky ) */
     left: 100px;
     right: 150px;
 }
+
+
 
 
